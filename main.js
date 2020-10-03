@@ -1,4 +1,4 @@
-require('dotenv').config({ path: 'config.env' });
+require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client({
     messageCacheMaxSize: -1,
